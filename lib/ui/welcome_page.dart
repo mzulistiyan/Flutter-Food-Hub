@@ -46,7 +46,7 @@ class WelcomePage extends StatelessWidget {
                   children: [
                     GestureDetector(
                       onTap: () {
-                        Navigator.pushNamed(context, '/sign-in');
+                        Navigator.pushNamed(context, '/home-page');
                       },
                       child: Container(
                         width: 55,
