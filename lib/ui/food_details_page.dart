@@ -275,11 +275,18 @@ class _DetailFoodPagesState extends State<DetailFoodPages> {
           width: 167,
           height: 53,
           decoration: BoxDecoration(
-            color: primaryColor,
-            borderRadius: BorderRadius.circular(30),
-          ),
+              color: primaryColor,
+              borderRadius: BorderRadius.circular(30),
+              boxShadow: [
+                BoxShadow(
+                  blurRadius: 5,
+                  color: primaryColor,
+                )
+              ]),
           child: TextButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pushNamed(context, '/cart-page');
+            },
             child: Row(
               children: [
                 Image.asset(

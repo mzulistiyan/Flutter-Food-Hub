@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_hub_app/ui/cart_page.dart';
 import 'package:food_hub_app/ui/food_details_page.dart';
 import 'package:food_hub_app/ui/home_page.dart';
 import 'package:food_hub_app/ui/signin_page.dart';
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
         '/sign-up': (context) => SignUpPage(),
         '/home-page': (context) => HomePage(),
         '/detail-page': (context) => DetailFoodPages(),
+        '/cart-page': (context) => CartPage(),
       },
     );
   }

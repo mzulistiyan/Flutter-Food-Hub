@@ -180,12 +180,13 @@ class WelcomePage extends StatelessWidget {
                     width: double.infinity,
                     height: 54,
                     decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(30),
-                        color: Colors.white.withOpacity(0.10),
-                        border: Border.all(
-                          color: Colors.white,
-                          width: 1,
-                        )),
+                      borderRadius: BorderRadius.circular(30),
+                      color: Colors.white.withOpacity(0.10),
+                      border: Border.all(
+                        color: Colors.white,
+                        width: 1,
+                      ),
+                    ),
                     child: TextButton(
                       onPressed: () {
                         Navigator.pushNamed(context, '/sign-in');
